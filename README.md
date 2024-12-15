@@ -42,3 +42,19 @@ This project is structured to provide a unified methodology for commit message g
 │   ├── T5/
 │   ├── BART/
 └── README.md
+
+## Performance Comparison of RAG and Other Approaches
+
+The table below shows the performance comparison of various approaches, including RAG (BART and T5), Hybrid models, Pre-trained models, and Large Language Models (LLMs) across Python, Java, and JavaScript:
+
+![Performance Comparison Table](Result.png)
+
+- **Metrics Evaluated**:
+  - **BLEU**: Measures overlap between generated and reference commit messages.
+  - **METEOR**: Accounts for synonymy and reordering in sentences.
+  - **ROUGE-L**: Measures longest common subsequence recall.
+
+- **Key Observations**:
+  - **RAG-BART** outperforms other methods in Python and JavaScript for BLEU, METEOR, and ROUGE-L metrics.
+  - **GPT-3.5** performs well as a baseline LLM but falls short of RAG-BART in overall performance.
+  - **RAG-T5** performs well in METEOR but has lower scores in other metrics.
