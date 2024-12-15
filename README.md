@@ -32,8 +32,9 @@ This project is structured to provide a unified methodology for commit message g
 │   ├── java.jsonl       # Java dataset with diffs and commit messages
 │   ├── js.jsonl         # JavaScript dataset with diffs and commit messages
 ├── notebooks/
-│   ├── generated_messages_BART_py.ipynb   # BART implementation for Python
+│   ├── RAG_BART_Joint_Training_java.ipynb   # BART implementation for Java with RAG
 │   ├── RAG_BART_Joint_Training_js.ipynb   # BART implementation for JavaScript with RAG
+│   ├── RAG_BART_Joint_Training_py.ipynb   # BART implementation for Python with RAG
 │   ├── RAG_T5_java.ipynb                  # T5 implementation for Java with RAG
 │   ├── RAG_T5_js.ipynb                    # T5 implementation for JavaScript with RAG
 │   ├── RAG_T5_py.ipynb                    # T5 implementation for Python with RAG
