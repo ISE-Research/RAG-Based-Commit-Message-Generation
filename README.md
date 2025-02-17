@@ -19,7 +19,7 @@ This project is structured to provide a unified methodology for commit message g
 - **Multi-Language Support**: Implements models for generating commit messages for codebases in Java, JavaScript, and Python.
 - **RAG Integration**: Combines generative capabilities with contextually retrieved information to improve the quality of generated messages.
 - **Pre-trained Transformer Models**: Uses BART and T5 for fine-tuning on commit message datasets.
-- **Performance Metrics**: Evaluates results using **BLEU**, **METEOR**, **ROUGE**, **accuracy**, and **readability**.
+- **Performance Metrics**: Evaluates results using **BLEU**, **METEOR**, **ROUGE**.
 - **Datasets**: Includes processed datasets (`py.jsonl`, `java.jsonl`, and `js.jsonl`) containing code diffs and corresponding commit messages.
 
 ---
@@ -53,7 +53,4 @@ The table below shows the performance comparison of various approaches, includin
 │   ├── RAG_T5_java.ipynb                  # T5 implementation for Java with RAG
 │   ├── RAG_T5_js.ipynb                    # T5 implementation for JavaScript with RAG
 │   ├── RAG_T5_py.ipynb                    # T5 implementation for Python with RAG
-├── models/
-│   ├── T5/
-│   ├── BART/
 └── README.md
