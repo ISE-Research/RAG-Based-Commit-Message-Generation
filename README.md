@@ -28,7 +28,7 @@ The table below shows the performance comparison of various approaches, includin
 
 ![Performance Comparison Table](Result.png)
 
-* P. Xue, L. Wu, Z. Yu, Z. Jin, Z. Yang, X. Li, Z. Yang, and Y. Tan, “Automated commit message generation with large language models: An empirical study and beyond,” *arXiv preprint* arXiv:2404.14824, 2024.
+\* P. Xue, L. Wu, Z. Yu, Z. Jin, Z. Yang, X. Li, Z. Yang, and Y. Tan, "Automated commit message generation with large language models: An empirical study and beyond," *arXiv preprint arXiv:2404.14824*, 2024.
 
 - **Metrics Evaluated**:
   - **BLEU**: Measures overlap between generated and reference commit messages.
