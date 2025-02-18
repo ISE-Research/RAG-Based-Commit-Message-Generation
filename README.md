@@ -7,8 +7,7 @@ This repository contains a comprehensive implementation of **Automatic Commit Me
 The objective of this repository is to automate the process of commit message generation by leveraging RAG to combine powerful language modeling with contextual retrieval. The repository is divided into modules corresponding to each language and framework:
 
 - **Languages**: Java, JavaScript, Python
-- **Models**: T5, BART
-- **Frameworks**: Hugging Face Transformers, PyTorch, TensorFlow
+- **Model**: Retrieval-Augmented Generation (RAG) model leveraging transformer-based generators (BART and T5)
 
 This project is structured to provide a unified methodology for commit message generation across diverse codebases and workflows.
 
