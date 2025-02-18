@@ -28,6 +28,8 @@ The table below shows the performance comparison of various approaches, includin
 
 ![Performance Comparison Table](Result.png)
 
+* P. Xue, L. Wu, Z. Yu, Z. Jin, Z. Yang, X. Li, Z. Yang, and Y. Tan, “Automated commit message generation with large language models: An empirical study and beyond,” *arXiv preprint* arXiv:2404.14824, 2024.
+
 - **Metrics Evaluated**:
   - **BLEU**: Measures overlap between generated and reference commit messages.
   - **METEOR**: Accounts for synonymy and reordering in sentences.
@@ -37,10 +39,6 @@ The table below shows the performance comparison of various approaches, includin
   - **RAG-BART** outperforms other methods in Python and JavaScript for BLEU, METEOR, and ROUGE-L metrics.
   - **GPT-3.5** performs well as a baseline LLM but falls short of RAG-BART in overall performance.
   - **RAG-T5** performs well in METEOR but has lower scores in other metrics.
-
-
-
-  * P. Xue, L. Wu, Z. Yu, Z. Jin, Z. Yang, X. Li, Z. Yang, and Y. Tan, “Automated commit message generation with large language models: An empirical study and beyond,” *arXiv preprint* arXiv:2404.14824, 2024.
 ---
 ## Repository Structure
 
