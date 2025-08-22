@@ -55,7 +55,7 @@ The table below shows the performance comparison of various approaches, includin
 │   ├── RAG_T5_js.ipynb                    # T5 implementation for JavaScript with RAG
 │   ├── RAG_T5_py.ipynb                    # T5 implementation for Python with RAG
 └── README.md
-
+```
 ---
 ## Citation
 This work is published in [SERA 2025]([https://2024.msrconf.org/track/msr-2024-technical-papers](https://acisinternational.org/conferences/sera-2025/) conference, under the title of "Enhancing Commit Message Generation in Software Repositories: A RAG-Based Approach".
