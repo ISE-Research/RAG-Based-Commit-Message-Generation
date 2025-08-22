@@ -58,7 +58,7 @@ The table below shows the performance comparison of various approaches, includin
 ```
 ---
 ## Citation
-This work is published in [SERA 2025]([https://2024.msrconf.org/track/msr-2024-technical-papers](https://acisinternational.org/conferences/sera-2025/) conference, under the title of "Enhancing Commit Message Generation in Software Repositories: A RAG-Based Approach".
+This work is published in [SERA 2025](https://acisinternational.org/conferences/sera-2025/) conference, under the title of "Enhancing Commit Message Generation in Software Repositories: A RAG-Based Approach".
 
 ```python
 @inproceedings{yadollahi2025SERA,
