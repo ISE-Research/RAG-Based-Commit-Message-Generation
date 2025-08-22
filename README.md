@@ -1,4 +1,4 @@
-# Automatic Commit Message Generation using Retrieval-Augmented Generation (RAG)
+# Enhancing Commit Message Generation in Software Repositories: A RAG-Based Approach
 
 This repository contains a comprehensive implementation of **Automatic Commit Message Generation** using **Retrieval-Augmented Generation (RAG)** techniques. The project explores different programming languages (`Java`, `JavaScript`, and `Python`) and multiple pre-trained transformer models, including **BART** and **T5**, to enhance version control documentation accuracy and efficiency.
 
